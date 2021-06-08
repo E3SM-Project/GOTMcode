@@ -1,0 +1,3 @@
+This is an empty directory in the repo, but this path must exist because it is
+an include directory, and the gotm module files are eventually placed here.
+
