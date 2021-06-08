@@ -10,7 +10,7 @@
 
 ! Handy for writing
 #define STDOUT write(stdout,*)
-#define STDERR write(stderr,*)
+#define STDERR if (.false.) write(stderr,*)
 #define LEVEL0 STDERR
 #define LEVEL1 STDERR '   ',
 #define LEVEL2 STDERR '       ',
