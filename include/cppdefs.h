@@ -43,7 +43,7 @@
 
 ! What precision will we use in this compilation
 #define SINGLE
-#undef  SINGLE
+! // #undef  SINGLE
 
 #ifdef SINGLE
 #define REALTYPE real(kind=selected_real_kind(6))
